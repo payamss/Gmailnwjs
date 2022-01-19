@@ -5,25 +5,26 @@
   "main": "src/views/index.html",
   "scripts": {
     "dev": "nw .",
-    "prod":"nwbuild --platforms win32,win64,osx64,linux32,linux64 --buildDir dist/ src/   "
+    "prod": "nwbuild --platforms win32,win64,osx64,linux32,linux64 --buildDir dist/ src/   ",
+    "b":" nwbuild --platforms win64 --buildDir dist/ --name Gmail ."
   },
   "window": {
     "title": "Gmail",
-   "icon": "icon.png",
+    "icon": "icon.png",
     "show": true,
     "show_in_taskbar": true,
     "toolbar": true,
     "width": 1920,
     "height": 1080,
-    "min_width": 1920,
-    "min_height": 1080,
+    "min_width": 800,
+    "min_height": 600,
     "position": "center",
-    "resizable":true 
+    "resizable": true
   },
   "author": "payam shariat",
   "license": "ISC",
   "devDependencies": {
-    "nw": "^0.60.0-sdk",
+    "nw": "^0.60.0",
     "nw-builder": "^3.5.7"
   }
 }
