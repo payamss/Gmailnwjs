@@ -1,0 +1,16 @@
+{
+  "name": "gmail",
+  "version": "1.0.0",
+  "description": "Gmail nwjs app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nw src/",
+    "prod":"nwbuild --platforms win32,win64,osx64,linux32,linux64 --buildDir dist/ src/ --win-ico gmail.ico  "
+  },
+  "author": "payam shariat",
+  "license": "ISC",
+  "devDependencies": {
+    "nw": "^0.60.0-sdk",
+    "nw-builder": "^3.5.7"
+  }
+}

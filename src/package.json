@@ -1,0 +1,22 @@
+{
+  "name": "gmail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "views/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+    "window": {
+    "title": "Gmail",
+    "icon": "assets/gmail.png",
+    "toolbar": true,
+    "width": 1920,
+    "height": 1080,
+    "min_width": 1920,
+    "min_height": 1080,
+    "position": "center",
+    "resizable":true 
+  },
+  "author": "payam shariat",
+  "license": "ISC"
+}
