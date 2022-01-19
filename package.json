@@ -2,10 +2,23 @@
   "name": "gmail",
   "version": "1.0.0",
   "description": "Gmail nwjs app",
-  "main": "index.js",
+  "main": "src/views/index.html",
   "scripts": {
-    "dev": "nw src/",
-    "prod":"nwbuild --platforms win32,win64,osx64,linux32,linux64 --buildDir dist/ src/ --win-ico gmail.ico  "
+    "dev": "nw .",
+    "prod":"nwbuild --platforms win32,win64,osx64,linux32,linux64 --buildDir dist/ src/   "
+  },
+  "window": {
+    "title": "Gmail",
+   "icon": "icon.png",
+    "show": true,
+    "show_in_taskbar": true,
+    "toolbar": true,
+    "width": 1920,
+    "height": 1080,
+    "min_width": 1920,
+    "min_height": 1080,
+    "position": "center",
+    "resizable":true 
   },
   "author": "payam shariat",
   "license": "ISC",
