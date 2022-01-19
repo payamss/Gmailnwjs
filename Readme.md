@@ -2,10 +2,12 @@
 
 this is an app to load Gmail for windows linux and macos
 ## Development 
-npm i
-nom run dev
+npm i 
+
+npm run dev
 
 ## Build
-npm i
-nom run prod
+npm i 
+
+npm run prod
 
